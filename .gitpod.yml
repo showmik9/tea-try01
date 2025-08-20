@@ -9,24 +9,5 @@ ports:
     # .gitpod.yml
 image: gitpod/workspace-full:latest
 
-tasks:
-  - name: Start Dev Server
-    init: npm install
-    command: npm run dev
-    # Gitpod will automatically map port 3000
-    # and open a preview window
-ports:
-  - port: 3000
-    onOpen: open-preview
 
-vscode:
-  extensions:
-    - esbenp.prettier-vscode     # Code formatting
-    - dbaeumer.vscode-eslint     # ESLint integration
-
-# Optional: Gitpod workspace prebuilds
-# so npm install runs automatically on new workspaces
-# prebuilds:
-#   init:
-#     - npm install
 
