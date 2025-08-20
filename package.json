@@ -2,6 +2,19 @@
   "name": "tea-try01",
   "version": "0.1.0",
   "private": true,
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "homepage": "https://github.com/showmik9/tea-try01#readme",
+  "bugs": {
+    "url": "https://github.com/showmik9/tea-try01/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/showmik9/tea-try01.git"
+  },
+  "license": "ISC",
+  "author": "https://registry.npmjs.org/",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
